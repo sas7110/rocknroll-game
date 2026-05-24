@@ -1,0 +1,33 @@
+; Rock 'n' Roll Racing Clone — Godot 4 project config.
+; See docs/PLAN_v2.md for project plan and goals.
+;
+; Format docs: https://docs.godotengine.org/en/stable/classes/class_projectsettings.html
+
+config_version=5
+
+[application]
+
+config/name="Rock 'n' Roll Racing Clone"
+config/description="Modern web-first clone of Rock 'n' Roll Racing (Blizzard, 1993)."
+config/version="0.1.0-dev"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Game="*res://scripts/core/game.gd"
+InputManager="*res://scripts/input/input_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.039, 0.039, 0.133, 1)

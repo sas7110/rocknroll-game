@@ -1,0 +1,28 @@
+# Godot 4 ignores
+.godot/
+.import/
+
+# Build output
+build/
+*.pck
+*.exe
+*.zip
+*.tar.gz
+
+# Mono / C# (kept here in case we add C# later)
+.mono/
+mono_crash.*.json
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Claude harness state
+.claude/
