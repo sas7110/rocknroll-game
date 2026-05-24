@@ -1,0 +1,25 @@
+# Normalize line endings — Godot text resources break with CRLF on some setups.
+* text=auto eol=lf
+
+# Binary assets
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ogg   binary
+*.wav   binary
+*.mp3   binary
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+# Treat Godot text formats as text
+*.gd       text
+*.tscn     text
+*.tres     text
+*.gdshader text
+*.svg      text
+*.cfg      text
+*.import   text
